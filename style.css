@@ -5,12 +5,12 @@ h1 {
   color: #0099ff;
   font-family: 'Segoe UI', sans-serif;
   line-height: 0.3;
-  font-size: 5vw;
+  font-size: 12vh;
   text-align: center;
 }
 p {
   font-family: 'Segoe UI', sans-serif;
   color: white;
-  font-size: 1vw;
+  font-size: 3vh;
   text-align: center;
 }
