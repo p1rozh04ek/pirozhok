@@ -1,8 +1,14 @@
+body {
+  background-color: #0f0f0f;
+}
 h1 {
   color: red;
   font-family: sans-serif;
   line-height: 0.5;
+  padding-left: 16px;
 }
 p {
   font-family: sans-serif;
+  padding-left: 16px;
+  color: white;
 }
