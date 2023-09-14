@@ -33,7 +33,9 @@ th {
   font-weight: 700;
   background-color: #ffffff55;
 }
-
+td {
+  background-color: #00000025;
+}
 th:hover {
   background-color: #ffffff88;
   transition: ease-in 250ms;
