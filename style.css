@@ -9,10 +9,16 @@ h1 {
   font-size: 12vh;
   text-align: center;
 }
-p {
+p, table, th, td {
   font-family: 'Segoe UI', 'Roboto', sans-serif;
   font-weight: 400;
   color: white;
   font-size: 3vh;
   text-align: center;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
 }
