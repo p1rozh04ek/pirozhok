@@ -28,3 +28,6 @@ th, td {
   padding-top: 0.5vh;
   padding-bottom: 0.5vh;
 }
+th {
+  font-weight: 700;
+}
