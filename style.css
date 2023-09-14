@@ -27,7 +27,18 @@ th, td {
   padding-right: 1vw;
   padding-top: 0.5vh;
   padding-bottom: 0.5vh;
+  transition: ease-out 250ms;
 }
 th {
   font-weight: 700;
+  background-color: #ffffff55;
+}
+
+th:hover {
+  background-color: #ffffff88;
+  transition: ease-in 250ms;
+}
+td:hover {
+  background-color: #ffffff88;
+  transition: ease-in 250ms;
 }
