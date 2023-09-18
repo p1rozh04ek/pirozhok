@@ -1,5 +1,9 @@
 body {
-  background: linear-gradient(45deg, #204060, #502050) fixed;
+  background: linear-gradient(var(--gradient-angle), #204060, #502050) fixed;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 h1 {
   color: #0099ff;
@@ -8,6 +12,7 @@ h1 {
   line-height: 0.3;
   font-size: 12vh;
   text-align: center;
+  text-shadow: 0px 0px 6vh #000000;
 }
 p, table, th, td {
   font-family: 'Segoe UI', 'Roboto', sans-serif;
