@@ -9,7 +9,7 @@ function step(timestamp) {
     r.style.setProperty('--gradient-angle', angle + 'deg');
     window.requestAnimationFrame(step);
 }
-window.requestAnimationFrame(step);
+//window.requestAnimationFrame(step);
 
 var snowConfig = {
   color: [255, 255, 255],
