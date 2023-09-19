@@ -1,13 +1,14 @@
 body {
   /*background: linear-gradient(var(--gradient-angle), #204060, #502050) fixed;*/
-  background: linear-gradient(180deg, #ffffff 0%, #0066ee 40%, #003388 90%) fixed;
+  background: linear-gradient(0deg, #aaaaaa 0%, #0066ee 20%, #001455 70%, #002244 100%) fixed;
   margin-left: 5vw;
   margin-right: 5vw;
   margin-top: 5vh;
   margin-bottom: 5vh;
 }
 h1 {
-  color: #0099ff;
+  /*color: #0099ff;*/
+  color: #ff5353;
   font-family: 'Segoe UI', 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 0.3;
