@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(var(--gradient-angle), #204060, #502050) fixed;
+  /*background: linear-gradient(var(--gradient-angle), #204060, #502050) fixed;*/
+  background: linear-gradient(180deg, #ffffff 0%, #0066ee 40%, #003388 90%) fixed;
   margin-left: 5vw;
   margin-right: 5vw;
   margin-top: 5vh;
