@@ -19,9 +19,9 @@ function openTechnikum()
     document.location.href = "http://zsdios.pl/";
 }
 
-// var snowConfig = {
-//   color: [255, 255, 255],
-//   count: 100,
-//   opacity: 0.8,
-//   density: 1 / 100,
-// };
+var snowConfig = {
+  color: [255, 255, 255],
+  count: 100,
+  opacity: 0.8,
+  density: 1 / 100,
+};
