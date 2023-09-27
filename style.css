@@ -97,3 +97,7 @@ td:hover {
   background-color: #ffffff88;
   transition: ease-in 250ms;
 }
+
+.clickable:hover {
+  cursor: pointer;
+}

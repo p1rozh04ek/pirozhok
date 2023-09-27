@@ -13,7 +13,7 @@
   <meta name="robots" content="no">
   <link rel="stylesheet" href="style.css">
   <script src="index.js" defer></script>
-  <script src="https://storage.yandexcloud.net/slaylines/uploads/snowflakes.min.1.0.0.js" defer></script>
+  <!-- <script src="https://storage.yandexcloud.net/slaylines/uploads/snowflakes.min.1.0.0.js" defer></script> -->
   <title>Ruslan Lohinau</title>
 </head>
 <body>
@@ -25,25 +25,28 @@
   <nav>
     <p><a href="https://p1rozh04ek.github.io/pirozhok/">Main</a> <a href="https://github.com/p1rozh04ek/pirozhok/">GitHub</a> <a href="https://www.google.com/">Google</a></p>
   </nav>
+  <nav>
+  </nav>
   </div>
   <section>
     <h1>Hi!</h1>
     <p>Kocham Technikum w Zwierzyncu</p>
     <table style="width: 90vw; height: 30vh;">
       <tr>
-        <th>Col 1</th>
-        <th>Col 2</th>
-        <th>Col 3</th>
+        <th>Autumn picture</th>
+        <th>Some info</th>
+        <th>Zwierzyniec picture</th>
       </tr>
       <tr>
-        <td>Text 1</td>
-        <td>Text 2</td>
-        <td>Text 3</td>
+        <td rowspan="3" style="margin: 0; padding: 0; width: 30vw;"><img src="autumn.jpg" style="display: block; width: 30vw; height: 100vh;"></td>
+        <td onclick="openTechnikum();" class="clickable">Click here for<br><b>my technikum</b></td>
+        <td rowspan="3" style="margin: 0; padding: 0; width: 30vw;"><img src="zwierzyniec.jpg" style="display: block; width: 30vw; height: 100vh;"></td>
       </tr>
       <tr>
-        <td>Text 4</td>
-        <td>Text 5</td>
-        <td>Text 6</td>
+        <td>Created by<br><b>Ruslan Lohinau</b></td>
+      </tr>
+      <tr>
+        <td>Today is<br><b><span id="date"></span></b></td>
       </tr>
     </table>
     <p>Paragraph 1</p>
