@@ -10,7 +10,3 @@ function resizeMap()
 addEventListener("resize", (event) => {
     resizeMap();
 });
-
-addEventListener("load", (event) => {
-    resizeMap();
-});
