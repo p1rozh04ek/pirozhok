@@ -11,8 +11,10 @@
 // }
 // window.requestAnimationFrame(step);
 
-document.getElementById("year").innerHTML = new Date().getFullYear();
-document.getElementById("date").innerHTML = new Date().toLocaleDateString(navigator.language);
+var element_year = document.getElementById("year");
+var element_date = document.getElementById("date");
+if(element_year) element_year.innerHTML = new Date().getFullYear();
+if(element_date) element_date.innerHTML = new Date().toLocaleDateString(navigator.language);
 
 function openTechnikum()
 {
