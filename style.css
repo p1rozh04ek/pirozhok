@@ -113,3 +113,8 @@ td:hover {
 .clickable:hover {
   cursor: pointer;
 }
+
+/** GRAFIKA **/
+#map {
+  box-shadow: 0 0 10vw #000000;
+}
